@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&family=Stint+Ultra+Condensed&display=swap');
+
+.container{
+    
+    margin-bottom: 10px;
+    margin-top: -45px;
+}
+.rows {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-weight: bolder;
+    padding-left: 50px;
+    
+  }
+  #about_us{
+      text-align: center;
+      background-attachment: fixed;
+  }
+  #about_us h1{
+    text-decoration: underline;
+    color: teal;
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-weight: 80px;
+    font-size: 50px;
+}
+#about_us p{
+    
+    font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;
+font-size: 28px;
+margin-left: 12.5%;
+margin-right: 12.5%; 
+}
+#historys{
+    text-align: center;
+    background-attachment: fixed;
+}
+#historys h1{
+  text-decoration: underline;
+  color: teal;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-weight: 80px;
+  font-size: 50px;
+}
+#historys p{
+  text-size-adjust: 20px;
+  font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;
+font-size: 28px;
+margin-left: 12.5%;
+margin-right: 12.5%; 
+}
+
+#goals_and_acheivements{
+    text-align: center;
+    background-attachment: fixed;
+}
+#goals_and_acheivements h1{
+  text-decoration: underline;
+  color: teal;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-weight: 80px;
+  font-size: 50px;
+}
+#goals_and_acheivements p{
+  text-size-adjust: 20px;
+  font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;
+font-size: 28px;
+margin-left: 12.5%;
+margin-right: 12.5%; 
+}
+
+#management{
+    text-align: center;
+    background-attachment: fixed;
+}
+#management h1{
+  text-decoration: underline;
+  color: teal;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-weight: 80px;
+  font-size: 50px;
+}
+/*#management p{
+  text-size-adjust: 20px;
+  font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;
+font-size: 28px;
+margin-left: 12.5%;
+margin-right: 12.5%; 
+}*/
+
+#awards{
+  text-align: center;
+  background-attachment: fixed;
+}
+#awards h1{
+  text-decoration: underline;
+  color: teal;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-weight: 80px;
+  font-size: 50px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  border: xStyle xColor xSize;
+
+border-radius: 1em;
+overflow: hidden;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#customers tr:nth-child(odd){background-color: white;}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers td:hover {background-color: #ddd;}
+
+#customers th {
+  text-align-last: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.row{
+margin: 0px 12.5%;
+
+
+  
+}

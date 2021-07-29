@@ -1,0 +1,20 @@
+.text-reset{
+    color:black;
+  }
+  .text-center1{
+    padding : 6px;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .text-uppercase{
+    font-weight:bold;
+    padding-bottom :10px
+  }
+ 
+  .fa{
+    color: black;
+  }
+
+  footer{
+    background-color: beige;
+  }

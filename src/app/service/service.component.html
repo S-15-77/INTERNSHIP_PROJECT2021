@@ -1,0 +1,175 @@
+<style>
+  .slidecontainer {
+    width: 100%;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+  }
+
+  .slider:hover {
+    opacity: 1;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04aa6d;
+    cursor: pointer;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04aa6d;
+    cursor: pointer;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Dela+Gothic+One&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@600&family=Dela+Gothic+One&family=Teko&display=swap");
+</style>
+
+<div class="row">
+  <img
+    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fna.panasonic.com%2Fus%2Fsites%2Fdefault%2Ffiles%2F2018-01%2Fconsulting-and-pro-services.jpg&f=1&nofb=1"
+    style="width: 100%; height: 250px"
+  />
+  <div class="bottom-left"><p style="font-size: 80px">Orders</p></div>
+</div>
+<br />
+
+<div class="rows" style="border-radius: 12px">
+  <h1
+    style="
+      font-family: 'DM Sans', sans-serif;
+      font-weight: bolder;
+      text-decoration: underline;
+      color: blue;
+      text-align: center;
+    "
+  >
+    Cater your events with us for a special experience
+  </h1>
+  <h4
+    style="
+      font-weight: bolder;
+      font-family: 'Big Shoulders Stencil Display', cursive;
+      font-family: 'Dela Gothic One', cursive;
+      font-family: 'Teko', sans-serif;
+      color: rgb(14, 219, 31);
+      text-align: center;
+      font-size: larger;
+    "
+  >
+    Birthdays, Baby Showers, Bridal Showers, Hi - Tea Parties, Corporate Meets,
+    we have got you covered for <br />
+    anything and everything. Just call us or visit us and get the best, snacks
+    and desserts for your event and <br />
+    complete them with our exceptional service. <br />
+    Share the food experience with your friends and family. Be the perfect host
+    by serving lip smacking dishes. <br />
+    Let us make your special occasion even better. Drop in your details below,
+    our team will get in touch with <br />
+    you at the earliest.
+  </h4>
+  <form id="orderform">
+    <div class="container">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <div style="margin: 0% auto">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter Name"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="age" class="form-label">Age</label>
+        <input
+          type="number"
+          class="form-control"
+          id="age"
+          placeholder="Enter Age"
+          style="width: 100%"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="mobileno" class="form-label"
+          >Mobile Number</label
+        >
+        <div class="input-group mb-3">
+          
+          <input
+            type="number"
+            class="form-control"
+            id = "mobileno"
+            placeholder="Mobile Number"
+            aria-label="Username"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+      </div>
+      <label for="email" class="form-label"
+        >Email Address</label
+      >
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id = "email"
+          placeholder="Recipient's username"
+          aria-label="Recipient's Email"
+          aria-describedby="basic-addon2"
+        />
+
+        
+      </div>
+
+      <label for="date1" class="form-label">Date</label>
+      <input
+        type="date"
+        id = "date1"
+        class="form-control"
+        placeholder="Pick Date"
+        aria-label="date"
+        aria-describedby="basic-addon2"
+      />
+      <br />
+
+      <div class="mb-3">
+        <label for="order" class="form-label">Orders</label>
+        <div>
+          <select name="order" id="order" style="width: 100%">
+            <option data-order="SI" value="South Indian" Selected>
+              South Indian
+            </option>
+            <option data-order="NI" value="North Indian" Selected>
+              North Indian
+            </option>
+            <option data-order="ITA" value="Italian" Selected>Italian</option>
+            <option data-order="SPA" value="Spanish" Selected>Spanish</option>
+            <option data-order="CHI" value="Chinese" Selected>Chinese</option>
+            <option data-order="NONE" value="none" Selected>
+              --SELECT ITEM--
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-primary" type="submit">Submit here</button>
+      </div>
+    </div>
+  </form>
+</div>
